@@ -17,10 +17,3 @@ spec:
                 name: auth-srv
                 port:
                   number: 3000
-          - path: /api/admin-company/?(.*)
-            pathType: Prefix
-            backend:
-              service:
-                name: admin-company-service-srv
-                port:
-                  number: 3100

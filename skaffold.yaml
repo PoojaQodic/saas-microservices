@@ -15,11 +15,3 @@ build:
             dest: .
       docker:
         dockerfile: Dockerfile
-    - image: meghaladesra/admin-company-service
-      context: admin-company-service
-      sync:
-        manual:
-          - src: src/**/*.ts
-            dest: .
-      docker:
-        dockerfile: Dockerfile
